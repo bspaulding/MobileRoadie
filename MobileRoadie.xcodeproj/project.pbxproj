@@ -23,6 +23,8 @@
 		65B360FF1C4494C2000F7C93 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B360FE1C4494C2000F7C93 /* ExtensionDelegate.swift */; };
 		65B361011C4494C2000F7C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B361001C4494C2000F7C93 /* Assets.xcassets */; };
 		65B361051C4494C2000F7C93 /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 65B360EB1C4494C2000F7C93 /* Watch.app */; };
+		65B3610F1C449866000F7C93 /* PerformancesTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3610E1C449866000F7C93 /* PerformancesTableRowController.swift */; };
+		65B361111C44A1F1000F7C93 /* PerformanceDetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B361101C44A1F1000F7C93 /* PerformanceDetailInterfaceController.swift */; };
 		65BDA3C51B7050610014EAF7 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BDA3C41B7050610014EAF7 /* CoreDataStore.swift */; };
 		65BDA3C81B7050CF0014EAF7 /* MIDIDestinationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BDA3C71B7050CF0014EAF7 /* MIDIDestinationsTableViewController.swift */; };
 		65BDA3CA1B7052EF0014EAF7 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BDA3C91B7052EF0014EAF7 /* Observable.swift */; };
@@ -112,6 +114,8 @@
 		65B360FE1C4494C2000F7C93 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		65B361001C4494C2000F7C93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65B361021C4494C2000F7C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B3610E1C449866000F7C93 /* PerformancesTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformancesTableRowController.swift; sourceTree = "<group>"; };
+		65B361101C44A1F1000F7C93 /* PerformanceDetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformanceDetailInterfaceController.swift; sourceTree = "<group>"; };
 		65BDA3C31B7050610014EAF7 /* MobileRoadie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileRoadie-Bridging-Header.h"; sourceTree = "<group>"; };
 		65BDA3C41B7050610014EAF7 /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
 		65BDA3C71B7050CF0014EAF7 /* MIDIDestinationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDIDestinationsTableViewController.swift; sourceTree = "<group>"; };
@@ -237,6 +241,8 @@
 				65B360FE1C4494C2000F7C93 /* ExtensionDelegate.swift */,
 				65B361001C4494C2000F7C93 /* Assets.xcassets */,
 				65B361021C4494C2000F7C93 /* Info.plist */,
+				65B3610E1C449866000F7C93 /* PerformancesTableRowController.swift */,
+				65B361101C44A1F1000F7C93 /* PerformanceDetailInterfaceController.swift */,
 			);
 			path = "Watch Extension";
 			sourceTree = "<group>";
@@ -488,8 +494,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B3610F1C449866000F7C93 /* PerformancesTableRowController.swift in Sources */,
 				65B360FF1C4494C2000F7C93 /* ExtensionDelegate.swift in Sources */,
 				65B360FD1C4494C2000F7C93 /* InterfaceController.swift in Sources */,
+				65B361111C44A1F1000F7C93 /* PerformanceDetailInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

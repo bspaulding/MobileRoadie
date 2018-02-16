@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MobileRoadie-Swift.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.
+  [[WCSessionManager sharedManager] startSession];
+  
+  PerformanceStore *store = [PerformanceStore sharedInstance];
+  [store performances];
+//  register({
+//    let refuels = self.refuelStore.all().sort(self.createdDateSorter)
+//    WatchSessionManager.sharedManager.updateApplicationContext(Dashboard().toDictionary(refuels))
+//  })
+
   return YES;
 }
 

@@ -116,4 +116,19 @@ class PerformanceStore : CoreDataStore {
       originalAudioFileName: "How Great Thou Art (Performance Track).m4a"
     )
   ]
+  
+  // Singleton Pattern
+  
+  class var sharedInstance: PerformanceStore {
+    struct Static {
+      static var instance: PerformanceStore?
+      static var token: dispatch_once_t = 0
+    }
+    
+    dispatch_once(&Static.token) {
+      Static.instance = PerformanceStore()
+    }
+    
+    return Static.instance!
+  }
 }
